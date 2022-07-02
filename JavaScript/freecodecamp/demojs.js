@@ -16,8 +16,29 @@ console.log(myName);
 var a;
 var b = 3;
 
-a = 5;
+a = 6;
 
 var c = a * b;
 
 console.log(c);
+
+// when declaring variables always use camelCase!!!!
+//Incrementing numbers in JavaScript
+var myVar = 0;
+
+myVar++; // or myVar = myVar + 1; or opposite for decrementing....
+
+console.log(myVar);
+
+// modified variables shortcut
+
+var aa = 12;
+var bb = 10;
+var cc = 8;
+var dd = 12;
+
+aa += 8;
+bb -= 3;
+cc *= 2;
+dd /= 4;
+console.log(aa, bb, cc, dd);
