@@ -42,8 +42,3 @@ bb -= 3;
 cc *= 2;
 dd /= 4;
 console.log(aa, bb, cc, dd);
-
-//double quoted strings.... you can use \" or start a string with a single qoute ' ' or use a back thicks ``.....
-
-var myString = 'I am a "double quoted strings in a "double quoted String..."""';
-console.log(myString);
