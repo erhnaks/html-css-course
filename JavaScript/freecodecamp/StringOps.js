@@ -17,8 +17,27 @@ var str2 = "Erhan Aksu, Nice to meet you!";
 console.log(str1 + str2);
 //or....
 
-var str3 = "Hello this is the first sentence.";
+var str3 = "Hello this is the first sentence. ";
 
 str3 += str1 + str2;
 
 console.log(str3);
+
+//Finding the length of a String;
+
+var stringLength = "Hello World";
+
+stringLength = stringLength.length;
+console.log(stringLength);
+
+var firstName = "Erhan";
+var lastName = "Aksu";
+
+lastName = lastName.length;
+console.log(lastName);
+
+firstName = firstName[2]; //printing the third index of firstName which is h.
+console.log(firstName);
+
+var lastLetterOfLastName = lastName[lastName.length - 2]; // counting backwards of letter of lastName;
+console.log(lastLetterOfLastName);
