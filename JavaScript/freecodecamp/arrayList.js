@@ -34,3 +34,10 @@ var myData = deepArray[2][1];
 because 8 is in the second index and it is in the first index of the second index */
 
 console.log(myData);
+
+//Push function in Arrays
+
+var pushArray = ["Simson", "j", "cat"];
+pushArray.push(["happy", "joy"]);
+
+console.log(pushArray);
