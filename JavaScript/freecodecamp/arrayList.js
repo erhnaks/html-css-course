@@ -19,3 +19,18 @@ var modifyArray = [10, 20, 30, 50]; //lets modify 50 and insert 40;
 modifyArray[3] = 40;
 
 console.log(modifyArray);
+
+//Three layer deep Arrays;
+
+var deepArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+var myData = deepArray[2][1];
+/*this line of code will give 8
+because 8 is in the second index and it is in the first index of the second index */
+
+console.log(myData);
