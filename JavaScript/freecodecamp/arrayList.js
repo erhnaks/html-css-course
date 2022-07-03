@@ -18,7 +18,7 @@ var modifyArray = [10, 20, 30, 50]; //lets modify 50 and insert 40;
 
 modifyArray[3] = 40;
 
-console.log(modifyArray);
+console.log(modifyArray); // return; [ 10, 20, 30, 40 ]
 
 //Three layer deep Arrays;
 
@@ -29,7 +29,7 @@ var deepArray = [
   [[10, 11, 12], 13, 14],
 ];
 
-var myData = deepArray[2][1];
+var myData = deepArray[2][1]; // return; 8
 /*this line of code will give 8
 because 8 is in the second index and it is in the first index of the second index */
 
@@ -40,4 +40,14 @@ console.log(myData);
 var pushArray = ["Simson", "j", "cat"];
 pushArray.push(["happy", "joy"]);
 
-console.log(pushArray);
+console.log(pushArray); // Array is now equal to [ 'Simson', 'j', 'cat', [ 'happy', 'joy' ] ]
+
+// Shift and unshift in Arrays; Shift will remove first index and pop will remove last index;
+
+var shiftArray = ["John", "doe", 22];
+
+shiftArray.shift(); //This line will remove the first index John;
+
+shiftArray.unshift("Hello"); //This line will insert Simon to first index;
+
+console.log(shiftArray); //return; [ 'Hello', 'doe', 22 ]
